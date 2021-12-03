@@ -1,0 +1,64 @@
+.allergenen {
+    width: 20%;
+    float: right;
+    padding: 100px;
+}
+
+#info2 {
+    position: absolute;
+    padding-left: 1456px;
+    padding-top: 20px;
+    font-size: 29px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+h6 {
+    padding-left: 422px;
+    font-size: 3em;
+    padding-top: 34px;
+    position: absolute;
+    /* text-decoration: underline; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+#info {
+    position: absolute;
+    padding-left: 186px;
+    padding-top: 122px;
+}
+
+h5 {
+    font-size: 3.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.6em;
+    /* font-weight: bold; */
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li {
+    font-size: 1.8em;
+    /* font-weight: bold; */
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#rechts {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+h4 {
+    position: absolute;
+    top: 806px;
+    left: 165px;
+    font-size: 2.5em;
+}

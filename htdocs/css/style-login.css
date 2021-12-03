@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: #435165;
+}
+
+.login {
+    width: 400px;
+    background-color: #3a0f49;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 305px auto;
+}
+
+.login h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #e54160cf;
+}
+
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: #3a0f49;
+}
+
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #e54160cf;
+    color: #ffffff;
+}
+
+.login form input[type="password"],
+.login form input[type="text"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.login form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #e54160cf;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.login form input[type="submit"]:hover {
+    background-color: #c02340cf;
+    transition: background-color 0.2s;
+}
+
+#login {
+    width: 50%;
+    margin-left: 199px;
+    border-left: solid #3a0f49 1px;
+}
+
+#terug {
+    width: 50%;
+    padding: 15px;
+    margin-top: -51px;
+    background-color: #e54160cf;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 327px;
+    text-align: center;
+}
+
+#terug:hover {
+    background-color: #c02340cf;
+    transition: background-color 0.2s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    outline: none;
+}
+

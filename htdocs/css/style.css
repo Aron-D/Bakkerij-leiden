@@ -1,0 +1,408 @@
+@import url(grid.css);
+@import url(font-awesome.css);
+@import url(menu.css);
+@import url(//fonts.googleapis.com/css?family=Economica:400);
+@import url(//fonts.googleapis.com/css?family=Economica:700);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:600);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:700);
+@import url(//fonts.googleapis.com/css?family=Dosis);
+
+html {
+  height: 100%;
+}
+
+a[href^="tel:"] {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  position: relative;
+  color: #969696;
+  background: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#e54160),
+      to(#3a0f49)) fixed;
+  font: 300 14px/20px "Open Sans", sans-serif;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #535151;
+  font-family: Economica, sans-serif;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 48px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.page1 h2 {
+  padding-top: 31px;
+  margin-bottom: 39px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
+
+a:hover {
+  color: #e54160;
+}
+
+.btn {
+  font-size: 1.3em;
+  color: #565656;
+  display: block;
+  border: none;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  box-shadow: 0 0 0.1em #3a0f49;
+  cursor: pointer;
+  padding: 10px;
+  outline: 0;
+  font: bold 20px/20px Economica, sans-serif;
+}
+
+.btn:hover {
+  color: #fff;
+  border-color: #000;
+  background-color: #e54160;
+}
+
+.link1 {
+  margin-top: 29px;
+  display: block;
+  float: right;
+  color: #fff;
+  background-color: #2e2d2d;
+  font-size: 24px;
+  line-height: 36px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+
+.link1:hover {
+  background-color: #aca;
+  color: #fff;
+}
+
+header {
+  display: block;
+  position: relative;
+  z-index: 800;
+  padding: 10px;
+  background-color: #3a0f49;
+}
+
+header h1 {
+  position: relative;
+  text-align: center;
+  z-index: 990;
+  float: left;
+}
+
+header h1 a {
+  display: inline-block;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -999px;
+  transition: 0s ease;
+  -o-transition: 0s ease;
+  -webkit-transition: 0s ease;
+}
+
+header h1 a img {
+  display: block;
+}
+
+.content {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  min-height: 80%;
+}
+
+.page1 .content {
+  padding-bottom: 49px;
+}
+
+.ctn__1 {
+  padding-bottom: 44px;
+}
+
+.gall_item {
+  display: block;
+  background: #e54160 url(../images/magnify.png) center center no-repeat;
+}
+
+.gall_item img {
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  width: 100%;
+  box-shadow: 0 0 #fff;
+}
+
+.gall_item:hover img {
+  opacity: 0.2;
+}
+
+.gall_block {
+  background-color: #f1f0f1;
+  padding: 1px;
+}
+
+.gall_bot {
+  padding: 28px 21px 30px;
+}
+
+.gall_bot .btn {
+  position: relative;
+  top: 1px;
+}
+
+.gall_bot .text1 {
+  margin-bottom: 22px;
+}
+
+#footer {
+    position: fixed;    
+    background-color: #1e1e1e !important;
+    border-top: 2px solid #db3e5e;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+.copyright {
+  font-weight: 400;
+  float: left;
+}
+
+.copyright .brand {
+  position: relative;
+  top: -2px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.copyright div {
+  padding-top: 6px;
+}
+
+.copyright div a:hover {
+  color: #535a5f;
+}
+
+.socials {
+  float: right;
+  color: #fff;
+  margin-top: -4px;
+  overflow: hidden;
+}
+
+.socials .fab {
+  font-size: 30px;
+  line-height: 50px;
+  width: 50px;
+  height: 48px;
+  text-align: center;
+}
+
+.fab {
+  background-color: #3a0f49;
+}
+
+.fab:hover {
+  color: #fff;
+  background-color: #e54160;
+}
+
+.socials .fa+.fa {
+  margin-left: 16px;
+}
+
+.middle {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  left: 50%;
+  margin-left: -100px;
+}
+
+.stripes {
+  position: absolute;
+  height: 173%;
+  margin-top: -54%;
+  right: -235%;
+}
+
+.text1 {
+  font-size: 18px;
+  margin-bottom: 2px;
+  line-height: 20px;
+  color: #000;
+  text-align: center;
+}
+
+.tx__1 {
+  margin-bottom: 22px;
+}
+
+.fw {
+  font-weight: 600;
+}
+
+.color1 {
+  color: #535151;
+}
+
+.color2 {
+  color: #eee;
+}
+
+.td_underline {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner>img {
+    width: 100%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .tmSelect.auto,
+  .tmSelect2.auto {
+    width: 340px;
+  }
+
+  .sep__1 {
+    height: 0;
+  }
+
+  .gall_block {
+    margin-bottom: 35px;
+  }
+
+  .img_inner img {
+    width: 100%;
+  }
+
+  .img_inner {
+    margin-top: 40px !important;
+    width: 100% !important;
+    float: none !important;
+    margin-right: 0 !important;
+    margin-bottom: 20px !important;
+  }
+
+  .box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .box div {
+    margin: 0 !important;
+    width: auto;
+  }
+
+  header h1 {
+    padding-top: 15px;
+    position: relative !important;
+    margin-bottom: 20px;
+    padding-left: 0;
+    float: none;
+    left: 0;
+    text-align: center;
+  }
+
+  header h1 a {
+    max-width: 90%;
+    width: auto;
+    display: inline-block;
+    height: auto;
+  }
+
+  .map figure iframe {
+    height: 300px;
+  }
+
+  .img_inner {
+    margin-top: 30px;
+  }
+
+  .none {
+    clear: both;
+  }
+
+  .middle {
+    font-weight: 400;
+    right: 30%;
+    float: left;
+  }
+
+  .socials {
+    float: left;
+    right: 30%;
+    margin-top: 30px;
+  }
+
+  #footer {
+    position: absolute;
+    min-height: 53px;
+    bottom: 0;
+    width: 100%;
+    background-color: #1e1e1e !important;
+    border-top: 2px solid #db3e5e;
+    padding: 17px;
+  }
+
+  .content {
+    padding-bottom: 200px;
+  }
+}
